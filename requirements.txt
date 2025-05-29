@@ -23,3 +23,34 @@ pdf2image>=1.16.3
 Pillow>=10.0.0
 faiss-cpu>=1.7.4
 tqdm>=4.66.0
+
+# === Core App Dependencies ===
+streamlit>=1.30.0
+numpy>=1.23.0
+pandas>=1.5.3
+PyPDF2>=3.0.1
+pdfplumber>=0.10.2
+python-dotenv>=1.0.1
+tqdm>=4.66.0
+Pillow>=10.0.0
+
+# === LangChain & Embeddings ===
+langchain>=0.1.13
+langchain-google-genai>=0.0.9
+faiss-cpu>=1.7.4
+
+# === OCR and PDF Handling ===
+pdf2image>=1.16.3
+paddleocr>=2.7.0.3
+
+# === LLM Client ===
+groq>=0.5.0
+
+# === Manual install required BEFORE installing paddleocr ===
+# Please install paddlepaddle manually based on your environment.
+# CPU (Linux/macOS): 
+# pip install paddlepaddle -f https://www.paddlepaddle.org.cn/whl/linux/cpu/avx/stable.html
+# Windows (CPU):
+# pip install paddlepaddle
+
+
