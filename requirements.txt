@@ -10,6 +10,7 @@ langchain-community
 pdfplumber
 groq 
 streamlit>=1.30.0
+paddle
 numpy>=1.23.0
 pandas>=1.5.3
 PyPDF2>=3.0.1
